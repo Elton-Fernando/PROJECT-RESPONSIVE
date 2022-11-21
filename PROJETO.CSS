@@ -1,0 +1,132 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+margin: 44px 0 144px 76px;
+}
+
+.img-logo{
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+div{
+    display: inline-block;
+    margin-left: 86px;
+}
+
+.link-header{
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #989D9C;
+cursor: pointer; /* CURSOR POINTER é a mãozinha do mouse*/
+margin-right: 24px;
+}
+
+.button-header{
+    background-color: #bf0bcf;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 42px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 515px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main{
+    background: #3cff00;
+    border-radius: 20.5px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+
+
+}
+@media screen and (max-width: 900px) {
+    body{
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        
+       
+    }
+
+    p{
+        display: none;
+    }
+    .link-header{
+        display: none;
+    }
+    .button-header{
+        display: none;
+    }
+img{
+    padding: 2px 0px 27px 35px;
+    position: absolute;
+    margin: 200px 36px 8px 1px;
+    right: -647px;
+}
+div{
+    position: absolute;
+    margin: 494px 250px 340px 229px;
+}
+h1{
+    text-align: center;
+    margin:221px -123px 0px -200px;
+}
+section{
+    position: absolute;
+}
+main{
+    position: absolute;
+    margin: -163px 10px 10px 10px;
+}
+    h2{
+        text-align: center;
+        margin: 20px -148px 29px -228px;
+    }
+    .button-main{
+        font-size: 51px;
+        width: 378px;
+        margin: 10px 10px 10px -74px;
+    }
+}
